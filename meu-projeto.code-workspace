@@ -1,0 +1,17 @@
+{
+	"folders": [
+		{
+			"path": "eureka-service"
+		},
+		{
+			"path": "zuul-service"
+		},
+		{
+			"name": "controle-de-pessoas",
+			"path": "controle-de-pessoas"
+		}
+	],
+	"settings": {
+		"java.configuration.updateBuildConfiguration": "automatic"
+	}
+}
