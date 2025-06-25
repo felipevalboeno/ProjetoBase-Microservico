@@ -15,3 +15,11 @@ Para testar o Microserviço execute no navegador a rota: http://localhost:8082/c
  - api/pessoas = Microserviço
 
  ![ms](https://github.com/felipevalboeno/assets/blob/main/ms.png)
+
+## Para que serve o eureka-server?
+- Ele é o microsserviço responsável pelo registro dos demais microsserviços, ele é quem sabe quais microsserviços podem ser acessiveis.
+Podemos chamar ele de Discovery Server.
+
+## Para que serve o zuul-server?
+- Ele é o microsserviço responsável por fazer nosso proxy, ou seja, ele é nossa porta de entrada para receber as requisições e delegar aos microsserviços corretamente.
+Ela também faz o papel de load balance, encaminhando de forma balanceada as requisições para os microsserviços registrados no Discovery Service. Podemos chamar ele também de GateWay.
